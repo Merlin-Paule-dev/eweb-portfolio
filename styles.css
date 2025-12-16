@@ -159,3 +159,49 @@ body {
         font-size: 2.2rem;
     }
 }
+/* ================= GENERAL SPACING ================= */
+.section p {
+    margin-bottom: 1.2rem;
+    line-height: 1.7;
+}
+
+.section ul {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+}
+
+.section ul li {
+    margin-bottom: 0.6rem;
+}
+
+/* ================= PORTRAIT ================= */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 3px solid #1e293b;
+}
+
+/* ================= PROJECT CARD (DARK THEME) ================= */
+.project-item {
+    background: #020617;
+    border: 1px solid #1e293b;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.project-item h3 {
+    margin-bottom: 1rem;
+}
+
+.project-item ul {
+    margin-top: 1rem;
+}
+
+/* ================= SKILLS / TOOLS POLISH ================= */
+.skills-grid span {
+    border: 1px solid #1e293b;
+}
